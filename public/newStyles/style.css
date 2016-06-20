@@ -1,20 +1,47 @@
 .headerDiv {
   width: 100%;
-  height: 52px; }
+  height: 52px;
+  background: rgba(244, 245, 250, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1); }
 
 .topLeftDiv {
-  float: left; }
+  float: left;
+  height: 52px; }
 
-.cloudAppDIv {
+.cloudAppDiv {
   height: 52px;
   width: 173px;
-  float: left;
-  cursor: pointer; }
+  padding-left: 5px;
+  font-family: Open Sans;
+  font-size: 11px;
+  cursor: pointer;
+  padding-top: 18px;
+  color: #515967;
+  text-decoration: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+#cloud {
+  height: 17px;
+  margin-left: 5px; }
+
+#poweredByText {
+  margin-top: -14px;
+  margin-left: 37px;
+  font-weight: 900; }
 
 .quizTileDiv {
-  width: 69.17px;
-  height: 12px; }
+  margin-left: 183px;
+  width: 100px;
+  height: 20px;
+  margin-top: -34px;
+  color: #515967;
+  font-size: 15px;
+  font-family: Open Sans; }
+
+.viewport {
+  width: 95%;
+  margin: auto;
+  text-align: center; }
 
 .contentDiv {
-  margin: auto;
-  width: 386px; }
+  margin: auto; }
